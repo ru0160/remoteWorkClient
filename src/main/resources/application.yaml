@@ -8,5 +8,5 @@ spring:
 client:
   path-cloud: /Users/gpbu13275/Downloads/zipGradle
   path-gradle: /Users/gpbu13275/.gradle
-  un-zip-gradle: /Users/gpbu13275/Documents/unzipgradle/copyGradle
+  un-zip-gradle: /Users/gpbu13275/Documents/unzipgradle
   zip-gradle: /Users/gpbu13275/Documents/zipgradle
