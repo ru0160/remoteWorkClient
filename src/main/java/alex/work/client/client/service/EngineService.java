@@ -27,5 +27,8 @@ public class EngineService {
         copyService.copyFolder(property.getPathCloud(), property.getZipGradle());
         unZipService.unZip(property.getZipGradle(), property.getUnZipGradle());
         copyService.copyFolder(property.getUnZipGradle(), property.getPathGradle());
+
+        clearService.clear(property.getZipGradle());
+        clearService.clear(property.getUnZipGradle());
     }
 }
