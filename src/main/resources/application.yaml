@@ -1,0 +1,12 @@
+server:
+  port: 8292
+
+spring:
+  application:
+    name: client
+
+client:
+  path-cloud: /Users/gpbu13275/Yandex.Disk.localized/zipGradle
+  path-gradle: /Users/gpbu13275/.gradle
+  un-zip-gradle: /Users/gpbu13275/Documents/unzipgradle
+  zip-gradle: /Users/gpbu13275/Documents/zipgradle
