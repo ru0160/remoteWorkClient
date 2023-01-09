@@ -15,7 +15,7 @@ public class UnZipServiceImpl implements UnZipService {
     public void unZip(String source, String dest) {
         log.info("process unzip");
         try {
-            ZipFile zipFile = new ZipFile(source);
+            ZipFile zipFile = new ZipFile(source + "/gradle.zip");
 
 
             zipFile.extractAll(dest);

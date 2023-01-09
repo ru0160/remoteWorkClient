@@ -6,7 +6,7 @@ spring:
     name: client
 
 client:
-  path-cloud: /Users/gpbu13275/Yandex.Disk.localized/zipGradle
+  path-cloud: /Users/gpbu13275/Downloads/zipGradle
   path-gradle: /Users/gpbu13275/.gradle
-  un-zip-gradle: /Users/gpbu13275/Documents/unzipgradle
+  un-zip-gradle: /Users/gpbu13275/Documents/unzipgradle/copyGradle
   zip-gradle: /Users/gpbu13275/Documents/zipgradle
