@@ -14,4 +14,8 @@ public class ClientProperty {
     private String pathGradle;
     private String unZipGradle;
     private String zipGradle;
+    private String m2PathCloud;
+    private String m2Path;
+    private String unZipM2;
+    private String zipM2;
 }

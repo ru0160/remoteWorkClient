@@ -1,6 +1,6 @@
 package alex.work.client.client.service;
 
-import alex.work.client.client.property.ClientProperty;
+
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import net.lingala.zip4j.core.ZipFile;
@@ -12,10 +12,10 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class UnZipServiceImpl implements UnZipService {
     @Override
-    public void unZip(String source, String dest) {
+    public void unZip(String source, String dest, String filename) {
         log.info("process unzip");
         try {
-            ZipFile zipFile = new ZipFile(source + "/gradle.zip");
+            ZipFile zipFile = new ZipFile(source + filename);
 
 
             zipFile.extractAll(dest);
